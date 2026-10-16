@@ -1,13 +1,26 @@
-venv/
-.pylintrc
+# Python
 __pycache__/
+*.py[cod]
 
-.vscode
-.idea
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables (secrets)
 .env
-django.log
-security.log
 
-db_sqlite3
+# Django
+db.sqlite3
 media/
-debug.log
+static/
+*.log
+
+# IDE / editors
+.vscode/
+.idea/
+.pylintrc
+
+# OS
+.DS_Store
+Thumbs.db
